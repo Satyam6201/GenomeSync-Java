@@ -1,0 +1,10 @@
+Sequence 1: ATGCCGTTA
+Sequence 2: ATGCGGTTG
+Levenshtein Distance: 2
+Similarity Index: 77.78%
+GC Content Seq1: 44.44%
+GC Content Seq2: 55.56%
+Longest Common Subsequence: ATGCGTTA
+Pattern found in Seq1: false
+Pattern found in Seq2: true
+Execution Time: 15 ms
