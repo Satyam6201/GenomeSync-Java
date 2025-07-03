@@ -5,17 +5,13 @@ public class KMPMatcher {
 
         while (i < text.length()) {
             if (pattern.charAt(j) == text.charAt(i)) {
-                i++;
-                j++;
+                i++; j++;
             }
 
-            if (j == pattern.length()) {
-                return true;
-            } else if (i < text.length() && pattern.charAt(j) != text.charAt(i)) {
-                if (j != 0)
-                    j = lps[j - 1];
-                else
-                    i++;
+            if (j == pattern.length()) return true;
+            else if (i < text.length() && pattern.charAt(j) != text.charAt(i)) {
+                if (j != 0) j = lps[j - 1];
+                else i++;
             }
         }
         return false;
@@ -23,16 +19,14 @@ public class KMPMatcher {
 
     private static int[] computeLPSArray(String pattern) {
         int[] lps = new int[pattern.length()];
-        int len = 0, i = 1;
-
-        while (i < pattern.length()) {
+        int len = 0;
+        for (int i = 1; i < pattern.length(); ) {
             if (pattern.charAt(i) == pattern.charAt(len)) {
                 lps[i++] = ++len;
+            } else if (len != 0) {
+                len = lps[len - 1];
             } else {
-                if (len != 0)
-                    len = lps[len - 1];
-                else
-                    lps[i++] = 0;
+                lps[i++] = 0;
             }
         }
         return lps;
