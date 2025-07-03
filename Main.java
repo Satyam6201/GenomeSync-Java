@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import utils.FileUtil;
 
 public class Main {
@@ -7,8 +6,8 @@ public class Main {
         TimerUtil timer = new TimerUtil();
         timer.start();
 
-        String seq1 = FileUtil.readSequence("dna_sequences/sequence1.txt");
-        String seq2 = FileUtil.readSequence("dna_sequences/sequence2.txt");
+        String seq1 = FileUtil.readSequence("C:\\Users\\satya\\OneDrive\\Desktop\\Project\\DNASequenceMatcher-java\\dna_sequences\\sequence1.txt");
+        String seq2 = FileUtil.readSequence("C:\\Users\\satya\\OneDrive\\Desktop\\Project\\DNASequenceMatcher-java\\dna_sequences\\sequence2.txt");
 
         if (!DNASequenceMatcher.isValidDNA(seq1) || !DNASequenceMatcher.isValidDNA(seq2)) {
             System.out.println("Invalid DNA sequences.");
