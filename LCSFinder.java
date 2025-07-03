@@ -10,7 +10,6 @@ public class LCSFinder {
             }
         }
 
-        // Reconstruct LCS
         StringBuilder lcs = new StringBuilder();
         int i = s1.length(), j = s2.length();
         while (i > 0 && j > 0) {
