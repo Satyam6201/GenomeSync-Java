@@ -74,7 +74,6 @@ ATGCCGTTA
 ```
 ATGCGGTTG
 ```
-
 ---
 
 ## 📤 Sample Output
