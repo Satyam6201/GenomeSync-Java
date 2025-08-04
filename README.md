@@ -133,8 +133,3 @@ java Main
 ## 👨‍💻 Author
 **Satyam Kumar Mishra**  
 Java Developer | Web Dev Enthusiast
-
----
-
-## 📜 License
-MIT License
