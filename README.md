@@ -115,14 +115,6 @@ Execution Time: 41ms
 
 ---
 
-## ✅ How to Compile & Run
-```bash
-javac Main.java utils/*.java analysis/*.java
-java Main
-```
-
----
-
 ## 💡 Future Improvements
 - GUI version using JavaFX
 - Web version using Java + Spring Boot
