@@ -17,6 +17,7 @@ Built with **Core Java only** (no external frameworks), this project showcases s
 - Levenshtein Distance
 - Similarity Index (%)
 - Longest Common Subsequence (LCS)
+---
 
 ### 🧬 DNA Tools
 - GC Content Calculator
