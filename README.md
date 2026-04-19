@@ -1,4 +1,4 @@
-ye# 🧬 DNA Insight: Intelligent DNA Sequence Analyzer in Java
+# 🧬 DNA Insight: Intelligent DNA Sequence Analyzer in Java
 
 ## 📌 Description
 **DNA Insight** is a console-based Java application that performs advanced DNA sequence analysis. It supports sequence comparison, mutation detection, codon translation, similarity scoring, GC content analysis, and more.
